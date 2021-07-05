@@ -1,0 +1,11 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - rise
+    - astroquery
+    - sunpy>=3.0.1
+    - git+https://github.com/samaloney/stixpy.git
