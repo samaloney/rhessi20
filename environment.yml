@@ -7,5 +7,7 @@ dependencies:
   - pip:
     - rise
     - astroquery
+    - pyyaml
     - sunpy>=3.0.1
+    - git+https://github.com/sunpy/radiospectra
     - git+https://github.com/samaloney/stixpy.git
