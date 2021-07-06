@@ -1,4 +1,4 @@
-name: example-environment
+name: rhessi20-tutorial
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,4 @@ dependencies:
     - sunpy>=3.0.1
     - git+https://github.com/sunpy/radiospectra
     - git+https://github.com/samaloney/stixpy.git
+    - requests
